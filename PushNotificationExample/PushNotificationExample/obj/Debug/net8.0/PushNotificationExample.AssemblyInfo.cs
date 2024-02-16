@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PushNotificationExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12fe5db08fbff90bff40921ed2e68495f9ac95f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PushNotificationExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PushNotificationExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

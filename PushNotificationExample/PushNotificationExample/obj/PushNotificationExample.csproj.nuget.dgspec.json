@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sysman980/RiderProjects/PushNotificationExample/PushNotificationExample/PushNotificationExample.csproj": {}
+    "/Users/sysman980/Documents/GitHub/PushNotificationExample/PushNotificationExample/PushNotificationExample/PushNotificationExample.csproj": {}
   },
   "projects": {
-    "/Users/sysman980/RiderProjects/PushNotificationExample/PushNotificationExample/PushNotificationExample.csproj": {
+    "/Users/sysman980/Documents/GitHub/PushNotificationExample/PushNotificationExample/PushNotificationExample/PushNotificationExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sysman980/RiderProjects/PushNotificationExample/PushNotificationExample/PushNotificationExample.csproj",
+        "projectUniqueName": "/Users/sysman980/Documents/GitHub/PushNotificationExample/PushNotificationExample/PushNotificationExample/PushNotificationExample.csproj",
         "projectName": "PushNotificationExample",
-        "projectPath": "/Users/sysman980/RiderProjects/PushNotificationExample/PushNotificationExample/PushNotificationExample.csproj",
+        "projectPath": "/Users/sysman980/Documents/GitHub/PushNotificationExample/PushNotificationExample/PushNotificationExample/PushNotificationExample.csproj",
         "packagesPath": "/Users/sysman980/.nuget/packages/",
-        "outputPath": "/Users/sysman980/RiderProjects/PushNotificationExample/PushNotificationExample/obj/",
+        "outputPath": "/Users/sysman980/Documents/GitHub/PushNotificationExample/PushNotificationExample/PushNotificationExample/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sysman980/.nuget/NuGet/NuGet.Config"
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -74,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/8.0.1/libexec/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

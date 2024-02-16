@@ -1,4 +1,5 @@
 using System.Reflection.Metadata;
+using Microsoft.Azure.NotificationHubs;
 
 namespace PushNotificationExample;
 using System.Net.Http;
@@ -17,7 +18,7 @@ public enum PlatformType {
 
 public abstract class NotificationHandler
 {
-    public abstract Task SendMessage();
+    public abstract Task<NotificationOutcome> SendMessage(NotificationPlatform platform, string id, string message);
 
     public abstract Task RegisterDevice(DeviceRegistration device);
 
