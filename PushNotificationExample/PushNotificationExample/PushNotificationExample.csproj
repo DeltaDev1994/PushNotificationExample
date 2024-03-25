@@ -11,6 +11,7 @@
         <PackageReference Include="Expo.Server.SDK" Version="1.0.2" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.1"/>
         <PackageReference Include="Microsoft.Azure.NotificationHubs" Version="4.1.0" />
+        <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0-preview5.24024.3" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
