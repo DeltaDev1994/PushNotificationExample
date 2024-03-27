@@ -140,7 +140,7 @@ public class NotificationHubService : INotificationService
             var sendTasks = new Task[]
             {
                 _hub.SendFcmNativeNotificationAsync(androidPayload, token),
-                _hub.SendAppleNativeNotificationAsync(iOSPayload, token)
+                // _hub.SendAppleNativeNotificationAsync(iOSPayload, token)
             };
 
             return Task.WhenAll(sendTasks);

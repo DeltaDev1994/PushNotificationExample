@@ -74,7 +74,7 @@ public class AzureNotificationHandler : NotificationHandler
         };
 
         await Hub.CreateRegistrationAsync(registration);
-        await SaveDevice(registration.PnsHandle);
+        // await SaveDevice(registration.PnsHandle);
         
         return registration;
     }

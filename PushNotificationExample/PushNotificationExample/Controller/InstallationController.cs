@@ -9,7 +9,6 @@ using PushNotificationExample.Models;
 
 namespace PushNotificationExample.Controllers
 {
-    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class NotificationsController : ControllerBase
