@@ -1,6 +1,8 @@
+using System.Runtime.CompilerServices;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.NotificationHubs;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace PushNotificationExample;
 
@@ -55,7 +57,7 @@ public class NotificationController : Controller
     [HttpPost("send")]
     public async Task<OkResult> SendMessage([FromBody] MessageDto message)
     {
-        await Handler.SendMessage(message.Platform, "fake-pns", message.Message);
-        return Ok();
+        await Handler.SendMessage(message.Platform, message.PNS, message.Message);
+        return Ok();        
     }
 }
