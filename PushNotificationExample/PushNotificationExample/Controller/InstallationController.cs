@@ -4,6 +4,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using PushDemoApi.Services;
+using PushNotificationExample.Models;
 
 namespace PushNotificationExample.Controllers
 {

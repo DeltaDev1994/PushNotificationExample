@@ -1,6 +1,6 @@
 using System.Threading;
 using System.Threading.Tasks;
-using PushDemoApi.Models;
+using PushNotificationExample.Models;
 
 namespace PushDemoApi.Services
 {

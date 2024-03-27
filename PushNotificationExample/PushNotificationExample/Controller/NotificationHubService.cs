@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Azure.NotificationHubs;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using PushDemoApi.Models;
+using PushNotificationExample.Models;
 
 namespace PushNotificationExample.Services
 {
