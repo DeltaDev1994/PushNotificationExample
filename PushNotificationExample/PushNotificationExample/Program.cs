@@ -1,4 +1,6 @@
+using PushNotificationExample.Services;
 using PushNotificationExample;
+using NotificationHubService = PushNotificationExample.Service.NotificationHubService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,7 @@ builder.Services.AddControllers(); // Ensure controllers are added
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<AzureNotificationHandler>();
+builder.Services.AddSingleton<INotificationService, NotificationHubService>();
 
 
 var app = builder.Build();
